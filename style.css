@@ -1,0 +1,29 @@
+
+/*content out of media query for desktop*/
+div{
+    background-color: #f2e9de;
+}
+p{
+    font-size: 35px;
+}
+
+/* for samsung size phone */
+@media screen and (max-width: 360px){
+    div{
+        background-color: #e0def4;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+/* media for iPad */
+@media screen and (min-width: 361px) and (max-width: 768px){
+    div{
+        background-color: #ebbcba;
+    }
+
+    p{
+        font-size: 30px;
+    }
+}
